@@ -27,7 +27,7 @@ const app = () => (
 | `fontsize` | `Any valid fontSize e.g \| "1rem" \| "16px"`    | `14px`   | Specifies font-size. Padding will adjust |
 | `...rest` | `Any valid attributes user wishes to add to Badge element e.g \| onClick`   | { } | any valid paragraph attributes
 
-### Exmaples
+### Examples
 
  To further clarify **...rest**, the following will add an onClick to the badge:
 ```
@@ -40,7 +40,7 @@ Example of **user inline-style**:
 ```
 
 ### Badge classNames
-If the user wishes to change default styles in an external stylesheet, the following classnames will target the badges.
+If the user wishes to change default styles in an external stylesheet, the following classNames will target the badges.
 
 
 Default 
@@ -54,4 +54,4 @@ Type
 - .badge-\<type\>
     - "type "is either square or pill. See props section.
 
-**Note that, for exmaple, a "pill" "pink" badge will have the classNames of .badge .badge-pink and .badge-pill**
+**Note that, for example, a "pill" "pink" badge will have the classNames of .badge .badge-pink and .badge-pill**
