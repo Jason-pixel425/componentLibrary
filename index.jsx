@@ -16,6 +16,17 @@ function App() {
     <Badge color='indigo'>Badge</Badge>
     <Badge color='purple'>Badge</Badge>
     <Badge color='pink'>Badge</Badge>
+    <br />
+    <br />
+    <br />
+    <Badge type='pill'>Badge</Badge>
+    <Badge type='pill' color='red'>Badge</Badge>
+    <Badge type='pill' color='yellow'>Badge</Badge>
+    <Badge type='pill' color='green'>Badge</Badge>
+    <Badge type='pill' color='blue'>Badge</Badge>
+    <Badge type='pill' color='indigo'>Badge</Badge>
+    <Badge type='pill' color='purple'>Badge</Badge>
+    <Badge style={{ color: 'red', fontSize: '16px', cursor: 'pointer' }} type='pill' color='pink'>Badge</Badge>
     </>
   )
 }

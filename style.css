@@ -129,6 +129,10 @@ button.button-danger {
     border-radius: 4px;
 }
 
+.badge-pill {
+    border-radius: 12px;
+}
+
 .badge-red{
     background-color: #FEE2E2;
     color: #991B1B;
