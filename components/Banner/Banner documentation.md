@@ -25,9 +25,9 @@ const app = () => (
 
 ### Examples
 
- To further clarify **...rest**, the following will add an onClick to the badge:
+ To further clarify **...rest**, the following will add an onClick to the banner:
 ```
-<Badge onClick={() => {console.log('string')}}>Badge</Badge>
+<Banner onClick={() => {console.log('string')}} />
 ```
 
 Example of **user inline-style**:
@@ -51,5 +51,5 @@ Type
 - .banner-message-desc
     - targets optional banner description.
 
-**Note that, one or more of these classes may be applied and to different element**
+**Note that one or more of these classes may be applied and also to different elements**
 
