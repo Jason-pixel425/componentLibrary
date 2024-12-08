@@ -10,7 +10,7 @@ import { IoWarningOutline } from "react-icons/io5";
 
 
 
-function App() {
+export default function App() {
   return (
     <>
     <h1>Your components go here</h1>
@@ -33,8 +33,14 @@ function App() {
     <Badge type='pill' color='indigo'>Badge</Badge>
     <Badge type='pill' color='purple'>Badge</Badge>
     <Badge style={{ color: 'red', fontSize: '16px', cursor: 'pointer' }} type='pill' color='pink'>Badge</Badge>
-    <IoWarningOutline style={{color: '#FBBF24'}}/>
+    <Banner type='success' messageText='There are spiders gone'></Banner>
     <Banner type='warning' messageText='There are spiders here'></Banner>
+    <Banner type='error' messageText='There are spiders got you' ></Banner>
+    <Banner type='info' messageText='There are spiders'></Banner>
+    <Banner type='success' messageText='There are spiders gone' messageDesc='No spiders'></Banner>
+    <Banner type='warning' messageText='There are spiders here' messageDesc='Kill them'></Banner>
+    <Banner type='error' messageText='There are spiders got you' messageDesc='You got got'></Banner>
+    <Banner type='info' messageText='There are spiders' messageDesc='Amazing'></Banner>
     </>
   )
 }
