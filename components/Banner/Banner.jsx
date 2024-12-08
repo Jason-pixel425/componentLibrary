@@ -3,7 +3,7 @@ import { FcApproval, FcHighPriority, FcInfo } from "react-icons/fc";
 import { IoWarningOutline } from "react-icons/io5";
 
 
-export default function Banner({type='info', messageText='Update available', messageDesc = ''}) {
+export default function Banner({type='info', messageText='Update available', messageDesc = '', ...rest}) {
     const typeClass = type;
     const classes = classnames('banner', `banner-${typeClass}`);
 
@@ -23,7 +23,7 @@ export default function Banner({type='info', messageText='Update available', mes
     }
 
     return (
-        <div className={classes}>
+        <div className={classes} {...rest}>
             <p className='banner-icon'>{getIcon()}</p>
             <div className='banner-message-container'>
                 <p className={`banner-message banner-message-${type}`}>{messageText}</p>
