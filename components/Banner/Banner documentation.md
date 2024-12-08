@@ -1,4 +1,4 @@
-# Badge Component
+# Banner Component
 
 The 'Banner' component is to display information and/or status.
 
