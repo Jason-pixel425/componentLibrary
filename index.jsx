@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Menu from "./components/Menu/index"
 import Star from "./components/Star"
-import Badge from './components//Badge/Badge'
+import Badge from './components/Badge/Badge'
+import Banner from './components/Banner/Banner.jsx'
+import { FaTriangleExclamation } from "react-icons/fa6";
+import { IoWarningOutline } from "react-icons/io5";
+
+
+
 
 function App() {
   return (
@@ -27,6 +33,8 @@ function App() {
     <Badge type='pill' color='indigo'>Badge</Badge>
     <Badge type='pill' color='purple'>Badge</Badge>
     <Badge style={{ color: 'red', fontSize: '16px', cursor: 'pointer' }} type='pill' color='pink'>Badge</Badge>
+    <IoWarningOutline style={{color: '#FBBF24'}}/>
+    <Banner type='warning' messageText='There are spiders here'></Banner>
     </>
   )
 }
