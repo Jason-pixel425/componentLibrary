@@ -120,6 +120,9 @@ button.button-danger {
     background-color: blue;
 }
 
+
+/* Badges */
+
 .badge {
     font-family: 'Inter' sans-serif;
     background-color: #F3F4F6;
@@ -168,4 +171,72 @@ button.button-danger {
     color: #9D174D;
 }
 
+/* Banner */
 
+.banner{
+    display: flex;
+    font-size: 0.875rem;
+    gap: 0.857em;
+    padding: 1.14em;
+    border-radius: 6px;
+    max-width: 850px;
+}
+.banner-message-container > p {
+    margin: 0;
+}
+
+.banner-icon {
+    margin: 0.1em 0;
+}
+
+
+p.banner-message-desc {
+    margin: 0.875em 0 0 0;
+}
+
+.banner-message {
+    font-weight: 500;
+}
+
+.banner-message-success {
+    color: #065F46;   
+}
+
+.banner-success {
+    background-color: #ECFDF5;
+    color: #047857;
+}
+
+.banner-message-warning {
+    color: #92400E;
+}
+.banner-warning {
+    background-color: #FFFBEB;
+    color: #B45309;
+}
+
+.banner-message-error {
+    color: #92400E;
+}
+.banner-error {
+    
+    background-color: #FEF2F2;
+    color: #B45309;
+}
+
+.banner-message-warning {
+    color: #92400E;
+}
+.banner-warning {
+    background-color: #FFFBEB;
+    color: #B45309;
+}
+
+.banner-message-info{
+    color: #1E40AF;
+}
+
+.banner-info {
+    background-color: #EFF6FF;
+    color: #1C51B9;
+}
