@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: #1F1F1F;
     height: 100vh;
     margin: 0;
     padding: 10px;
@@ -10,6 +11,8 @@ body {
     justify-content: center;
     font-family: Inter;
 }
+
+
 
 .star {
     height: 30px;
@@ -129,6 +132,7 @@ button.button-danger {
     color: #1F2937;
     display: inline-block;
     padding: 0.143em 0.857em;
+    max-width: fit-content;
     border-radius: 4px;
 }
 
@@ -172,6 +176,14 @@ button.button-danger {
 }
 
 /* Banner */
+
+.badges-container{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+}
 
 .banner{
     display: flex;
@@ -240,3 +252,55 @@ p.banner-message-desc {
     background-color: #EFF6FF;
     color: #1C51B9;
 }
+
+/* Card component */
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.card {
+    width: 330px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 1.5em 2em;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    
+}
+
+.card > .card-img {
+    width: 48px;
+    position: absolute;
+    top: -20px;
+    
+}
+
+.card > .card-desc {
+    margin: 0;
+    line-height: 1.5;
+    color: #6B7280;
+    margin: 1.25em 0 0 0;
+}
+
+.card .card-title {
+    font-size: 1.125rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Take full width */
+        /* Optional max-width for better aesthetics */
+        padding: 1em; /* Reduce padding for smaller screens */
+    }
+}
+
