@@ -55,11 +55,12 @@ export default function App() {
     <Card brandIcon={CardIcon}>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
     </div>
 
-    <br />
+    
     {/* <Testimonial></Testimonial> */}
     <Testimonial imgSrc={testImage}>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
     </Testimonial>
+    <br/>
     <Testimonial>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.</Testimonial>
     </>
   )

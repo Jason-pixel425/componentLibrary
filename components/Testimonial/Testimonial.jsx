@@ -10,7 +10,10 @@ export default function Testimonial({imgSrc,
      personName='May Andersons',
      personOccupation='Workcation, CTO',
      children}) {
-        const classes = classnames('testimonial', 'testimonial-with-img')
+        const classes = classnames('testimonial', {
+            'testimonial-with-img': imgSrc,
+            'testimonial-no-img': !imgSrc
+        })
         return (
             <div className={classes}>
                 {imgSrc && <img src={imgSrc} alt={imgAlt} />}
@@ -22,6 +25,7 @@ export default function Testimonial({imgSrc,
                         <p>{personOccupation}</p>
                     </div>
                 </div>
+
             </div>
         )
 }

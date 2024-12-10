@@ -322,12 +322,14 @@ p.banner-message-desc {
     font-size: 1.5rem;
     background-color: #2545B8;
     padding: 1.5em 3em;
-    margin: 2em 0;
+    
     gap: 2em;
     color: #FFF;
 }
 
-
+.testimonial-with-img {
+    margin: 2em 0;
+}
 
 .testimonial-with-img >  img {
     max-width: 384px;
@@ -338,6 +340,13 @@ p.banner-message-desc {
    flex-shrink: 1;
 
 }
+ .testimonial-no-img > .testimonial-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    max-width: 1200px;
+}
 
 .testimonial-with-img > .testimonial-text {
     display: flex;
@@ -345,27 +354,27 @@ p.banner-message-desc {
     max-width: 800px;
 }
 
-.testimonial-with-img > .testimonial-text > .testimonial-footer {
+ .testimonial-text > .testimonial-footer {
     font-size: 1rem;
 }
 
-.testimonial-with-img > .testimonial-text > .testimonial-footer > p {
+.testimonial-text > .testimonial-footer > p {
     margin: 0;
 }
 
-.testimonial-with-img > .testimonial-text > .testimonial-footer > .testimonial-name {
+.testimonial-text > .testimonial-footer > .testimonial-name {
     font-weight: bold;
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     .testimonial {
         flex-direction: column;
-        margin: 5em 0 0 0;
         padding: 2em;
     }
+    .testimonial-with-img {margin: 5em 0 0 0;}
 
     .testimonial-with-img > img {
-        margin: -6em 0 -1.5em 0;
+        margin: -6em 0 0 0;
         width: 100%;
         height: 206px;
     }
