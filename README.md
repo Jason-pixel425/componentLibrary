@@ -1,3 +1,9 @@
+# Component library
+
+Simple component library as a solo project
+
+Preview of compoonents can be found here: https://componentlibraryjason.netlify.app
+
 # Badge Component
 
 The 'Badge' component is a simple component to display a small amount of information or status.
