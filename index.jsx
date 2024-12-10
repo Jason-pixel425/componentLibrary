@@ -48,7 +48,6 @@ export default function App() {
     <br />
     <div className='cards-container'>
     <Card>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-    <br />
     <Card><a href='#'>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</a></Card>
     <Card brandIcon={CardIcon}><a href='#'>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</a></Card>
     <Card brandIcon={CardIcon}>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
