@@ -11,7 +11,7 @@ The 'Banner' component is to display information and/or status.
 import Banner from 'Banner.jsx'
 
 const app = () => (
-    <Banner>Badge</Banner>
+    <Banner />
 );
 ```
 ### Props

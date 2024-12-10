@@ -6,6 +6,8 @@ import Badge from './components/Badge/Badge'
 import Banner from './components/Banner/Banner.jsx'
 import Card from './components/Card/Card.jsx'
 import CardIcon from './components/Card/testIcon/Capture.png'
+import testImage from './components/Testimonial/testImage/testImage.jfif'
+import Testimonial from './components/Testimonial/Testimonial.jsx'
 import { FaTriangleExclamation } from "react-icons/fa6";
 import { IoWarningOutline } from "react-icons/io5";
 
@@ -39,8 +41,8 @@ export default function App() {
     <Banner type='error' messageText='The spiders got you' ></Banner>
     <Banner type='info' messageText='There are spiders'></Banner>
     <Banner type='success' messageText='The spiders are gone' messageDesc='No spiders'></Banner>
-    <Banner type='warning' messageText='There are spiders here' messageDesc='Kill them'></Banner>
-    <Banner type='error' messageText='The spiders got you' messageDesc='You got got'></Banner>
+    <Banner type='warning' messageText='There are spiders here' messageDesc='Beware'></Banner>
+    <Banner type='error' messageText='The spiders got you' messageDesc='The spiders got you'></Banner>
     <Banner type='info' messageText='There are spiders' messageDesc='Amazing'></Banner>
     
     <br />
@@ -52,6 +54,14 @@ export default function App() {
     <Card brandIcon={CardIcon}><a href='#'>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</a></Card>
     <Card brandIcon={CardIcon}>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
     </div>
+
+    
+    {/* <Testimonial></Testimonial> */}
+    <Testimonial imgSrc={testImage}>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
+    </Testimonial>
+    <br/>
+    <Testimonial>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.</Testimonial>
     </>
   )
 }
